@@ -19,6 +19,8 @@
         "mockery/mockery": "^1.4.4",
         "nunomaduro/collision": "^7.0",
         "nunomaduro/larastan": "^2.0",
+        "pestphp/pest": "^2.23",
+        "pestphp/pest-plugin-laravel": "^2.2",
         "phpunit/phpunit": "^10.1",
         "spatie/laravel-ignition": "^2.0"
     },
@@ -53,6 +55,9 @@
         ],
         "pint": [
             "./vendor/bin/pint"
+        ],
+        "test": [
+            "./vendor/bin/pest"
         ]
     },
     "extra": {
